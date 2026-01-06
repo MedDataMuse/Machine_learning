@@ -12,14 +12,12 @@ prédictions honnêtes (out-of-sample),
 
 métriques finales globales.
 
-L’objectif est clairement méthodologique : montrer comment faire du ML “propre”, sans fuite d’information, avec une logique proche de la statistique appliquée.
-
 ### 📌 Script 1 — Régression supervisée (ML_regression_supervisee.py)
-🎯 Objectif
+#### 🎯 Objectif
 
 🧠 Comparer plusieurs modèles de régression linéaire pénalisée sur le jeu de données Ozone, en respectant une validation croisée externe stricte.
 
-🧪 Modèles implémentés
+#### 🧪 Modèles implémentés
 
 MCO (régression linéaire classique)
 
@@ -50,8 +48,6 @@ Sauvegarde :
 PREV_regression_base.csv → toutes les prédictions
 
 perf_regression_base.csv → tableau de performance
-
-👉 Ce script montre une approche ML alignée avec les bonnes pratiques statistiques, très loin du simple fit/predict naïf.
 
 ### 📌 Script 2 — Classification supervisée (ML_classification_supervisee.py)
 🎯 Objectif
@@ -89,5 +85,3 @@ Sauvegarde :
 PROB_classif.csv → probabilités prédites
 
 perf_classif.csv → AUC par modèle
-
-👉 Le script met l’accent sur la comparabilité des modèles et l’évaluation robuste des performances en classification.
